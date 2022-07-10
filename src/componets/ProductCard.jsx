@@ -1,7 +1,6 @@
 import React from "react";
 
 function ProductCard({ item }) {
-	console.log(item);
 	return (
 		<div className="w-60 m-4 shadow-sm p-2">
 			<div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">

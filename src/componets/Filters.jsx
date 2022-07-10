@@ -158,9 +158,9 @@ const Filters = () => {
 							type="radio"
 							name="idealFor"
 							id="idealFor-men"
-							checked={idealFor === "MEN"}
+							checked={idealFor === "Men"}
 							onChange={() =>
-								dispatchFilters({ type: "CHANGE_IDEAL_FOR", payload: "MEN" })
+								dispatchFilters({ type: "CHANGE_IDEAL_FOR", payload: "Men" })
 							}
 						/>
 						Men
@@ -170,9 +170,9 @@ const Filters = () => {
 							type="radio"
 							name="idealFor"
 							id="idealFor-women"
-							checked={idealFor === "WOMEN"}
+							checked={idealFor === "Women"}
 							onChange={() =>
-								dispatchFilters({ type: "CHANGE_IDEAL_FOR", payload: "WOMEN" })
+								dispatchFilters({ type: "CHANGE_IDEAL_FOR", payload: "Women" })
 							}
 						/>
 						Women
